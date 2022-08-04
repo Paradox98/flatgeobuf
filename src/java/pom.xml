@@ -2,9 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.wololo</groupId>
-  <artifactId>sm-flatgeobuf</artifactId>
-  <version>3.22.2</version>
-  <name>sm-flatgeobuf</name>
+  <artifactId>flatgeobuf</artifactId>
+  <version>3.22.2-sm-220804</version>
+  <name>flatgeobuf</name>
   <description>A performant binary encoding for geographic data based on flatbuffers</description>
   <url>https://github.com/flatgeobuf/flatgeobuf</url>
   <licenses>
@@ -74,7 +74,7 @@
           </execution>
         </executions>
       </plugin>
-      <!--<plugin>
+    <!--  <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
         <version>3.3.2</version>
