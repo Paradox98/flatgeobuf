@@ -55,7 +55,7 @@ public class HeaderMeta {
         }
         Header.startHeader(builder);
         Header.addGeometryType(builder, headerMeta.geometryType);
-        Header.addIndexNodeSize(builder, 0);
+        Header.addIndexNodeSize(builder, headerMeta.indexNodeSize );
         Header.addColumns(builder, columnsOffset);
         Header.addName(builder, nameOffset);
         Header.addCrs(builder, crsOffset);
